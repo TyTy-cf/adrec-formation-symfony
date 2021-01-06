@@ -1,0 +1,15 @@
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    {% include 'content.html.twig' %}
+{#    {% include 'content.html.twig' with {'sentence': sentence} %}#}
+
+    <ul>
+        {% for boisson in boissons %}
+            <li>{{ boisson }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
