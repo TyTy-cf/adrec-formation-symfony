@@ -25,22 +25,23 @@ class HomeController extends AbstractController
                 'b1' => 'Coca',
                 'b2' => 'Orangina',
                 'b3' => 'Vin rouge',
-                'b4' =>  'Sprite'
+                'b4' =>  'Sprite',
+                'Eau', 'Badoit', 'Rosé', 'Vodka'
             ],
             'date' => new \DateTime(),
         ]);
     }
 
-    /**
-     * @Route(path="/index", name="boissons_index")
-     * @return Response
-     */
-    public function boissonsIndex(): Response
-    {
-        return $this->render('boissons.html.twig', [
-            'boissons' => ['Eau', 'Badoit', 'Rosé', 'Vodka'],
-        ]);
-    }
+//    /**
+//     * @Route(path="/index", name="boissons_index")
+//     * @return Response
+//     */
+//    public function boissonsIndex(): Response
+//    {
+//        return $this->render('boissons.html.twig', [
+//            'boissons' => ['Eau', 'Badoit', 'Rosé', 'Vodka'],
+//        ]);
+//    }
 
     /**
      * @Route(path="/boisson/show/{boisson}", name="boisson_show")
