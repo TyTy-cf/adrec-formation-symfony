@@ -1,0 +1,20 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ parent() }} -  BOISSON DETAIL
+{% endblock %}
+
+{% block body %}
+
+    <hr>
+
+    {{ boisson }}
+
+    <hr>
+    
+    <a href="{{ path('home_page') }}">
+        Retour à l'accueil
+    </a>
+
+{% endblock %}

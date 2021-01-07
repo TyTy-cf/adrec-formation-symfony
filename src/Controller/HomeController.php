@@ -18,25 +18,6 @@ class HomeController extends AbstractController
      */
     public function homePage(): Response
     {
-        for($i = 0; $i < 10; $i++);
-        return $this->render('boissons.html.twig', [
-            'sentence' => "on est fort en pomme",
-            'boissons' => [
-                'b1' => 'Coca',
-                'b2' => 'Orangina',
-                'b3' => 'Vin rouge',
-                'b4' =>  'Sprite'
-            ],
-            'date' => new \DateTime(),
-        ]);
-    }
-
-    /**
-     * @Route(path="/index", name="boissons_index")
-     * @return Response
-     */
-    public function boissonsIndex(): Response
-    {
         return $this->render('boissons.html.twig', [
             'boissons' => ['Eau', 'Badoit', 'Rosé', 'Vodka'],
         ]);
@@ -49,7 +30,10 @@ class HomeController extends AbstractController
      */
     public function boissonShow(Request $request): Response
     {
-        return new Response("Je suis sur la boisson : " . $request->get('boisson'));
+        $boisson = $request->get('boisson');
+        return $this->render('boisson.html.twig', [
+            'boisson' => $boisson,
+        ]);
     }
 
     /**
