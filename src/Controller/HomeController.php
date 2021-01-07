@@ -47,7 +47,7 @@ class HomeController extends AbstractController
     }
 
     /**
-     * @Route(path="/boisson/show/{boisson}", name="boisson_show")
+     * @Route(path="/drink{boisson}", name="boisson_show")
      * @param Request $request
      * @return Response
      */
