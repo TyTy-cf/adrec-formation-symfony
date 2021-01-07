@@ -22,14 +22,14 @@ class HomeController extends AbstractController
         return $this->render('boissons.html.twig', [
             'sentence' => "on est fort en pomme",
             'boissons' => [
-                'b1' => 'Coca',
-                'b2' => 'Orangina',
-                'b3' => 'Vin rouge',
-                'b4' =>  'Sprite',
-                'b5' => 'Eau',
-                'b6' => 'Badoit',
-                'b7' => 'Rosé',
-                'b8' => 'Vodka',
+                'Coca',
+                'Orangina',
+                'Vin rouge',
+                'Sprite',
+                'Eau',
+                'Badoit',
+                'Rosé',
+                'Vodka',
             ],
             'date' => new \DateTime(),
         ]);
