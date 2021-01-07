@@ -25,7 +25,11 @@ class HomeController extends AbstractController
                 'b1' => 'Coca',
                 'b2' => 'Orangina',
                 'b3' => 'Vin rouge',
-                'b4' =>  'Sprite'
+                'b4' =>  'Sprite',
+                'b5' => 'Eau',
+                'b6' =>  'Badoit',
+                'b7' =>  'Rosé',
+                'b8' =>  'Vodka',
             ],
             'date' => new \DateTime(),
         ]);
