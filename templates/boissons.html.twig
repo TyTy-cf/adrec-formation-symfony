@@ -7,20 +7,13 @@
 
 {% block body %}
 
-    {% include 'content.html.twig' %}
-{#    {% include 'content.html.twig' with {'sentence': sentence} %}#}
-
     {% if date is defined %}
         <p>Date du jour : {{ date|date('d/m/Y') }}</p>
     {% endif %}
 
     {% if boissons|length > 0 %}
         <ul>
-            {% for key, boisson in boissons %}
-                <p>{{ loop.index }}</p>
-                {% if loop.first %}
-                    <div style="color: red;">JE SUIS LE PREMIER</div>
-                {% endif %}
+            {% for boisson in boissons %}
                 <li>
                     <a href="{{ path('boisson_show', {'boisson': boisson}) }}">
                         {{ boisson }}
@@ -31,10 +24,5 @@
     {% else %}
         <p>Le bar est vide, on est fermé</p>
     {% endif %}
-
-    <a href="{{ path('boissons_index') }}">
-        Les autres boissons
-    </a>
-
 
 {% endblock %}
