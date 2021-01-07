@@ -19,8 +19,8 @@ class HomeController extends AbstractController
     public function homePage(): Response
     {
         for($i = 0; $i < 10; $i++);
-        return $this->render('boissons.html.twig', [
-            'sentence' => "on est fort en pomme",
+        return $this->render('home.html.twig', [
+            'sentence' => "la carte des boissons",
             'boissons' => [
                 'b1' => 'Coca',
                 'b2' => 'Orangina',
