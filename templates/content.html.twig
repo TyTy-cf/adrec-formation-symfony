@@ -3,10 +3,10 @@
 
     <p>Vive les licornes arc-en-ciel</p>
     <p>
-        Compteur : {{ compteur }}
+        Compteur : {{ compteur|default("Il n'y a pas de compteur") }}
     </p>
     <div>
-        {{ sentence }}
+        {{ sentence|default("Pas de sentence")  }}
     </div>
 
 {% endblock %}
