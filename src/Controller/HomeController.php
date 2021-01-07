@@ -25,31 +25,25 @@ class HomeController extends AbstractController
                 'b1' => 'Coca',
                 'b2' => 'Orangina',
                 'b3' => 'Vin rouge',
-                'b4' =>  'Sprite'
+                'b4' =>  'Sprite',
+                'Eau',
+                'Badoit',
+                'Rosé',
+                'Vodka'
             ],
             'date' => new \DateTime(),
         ]);
     }
 
     /**
-     * @Route(path="/index", name="boissons_index")
-     * @return Response
-     */
-    public function boissonsIndex(): Response
-    {
-        return $this->render('boissons.html.twig', [
-            'boissons' => ['Eau', 'Badoit', 'Rosé', 'Vodka'],
-        ]);
-    }
-
-    /**
-     * @Route(path="/boisson/show/{boisson}", name="boisson_show")
+     * @Route(path="/allBoissons", name="boisson_show")
      * @param Request $request
      * @return Response
      */
     public function boissonShow(Request $request): Response
     {
-        return new Response("Je suis sur la boisson : " . $request->get('boisson'));
+        return $this->render('allBoissons.html.twig',['boissons']
+        );
     }
 
     /**
@@ -58,4 +52,5 @@ class HomeController extends AbstractController
     public function contactAction() {
         return $this->render('cours.html.twig');
     }
+
 }
