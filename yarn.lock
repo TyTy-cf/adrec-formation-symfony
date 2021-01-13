@@ -939,9 +939,9 @@
     source-map "^0.7.3"
 
 "@types/webpack@^4.4.31":
-  version "4.41.26"
-  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.26.tgz#27a30d7d531e16489f9c7607c747be6bc1a459ef"
-  integrity sha512-7ZyTfxjCRwexh+EJFwRUM+CDB2XvgHl4vfuqf1ZKrgGvcS5BrNvPQqJh3tsZ0P6h6Aa1qClVHaJZszLPzpqHeA==
+  version "4.41.25"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.25.tgz#4d3b5aecc4e44117b376280fbfd2dc36697968c4"
+  integrity sha512-cr6kZ+4m9lp86ytQc1jPOJXgINQyz3kLLunZ57jznW+WIAL0JqZbGubQk4GlD42MuQL5JGOABrxdpqqWeovlVQ==
   dependencies:
     "@types/anymatch" "*"
     "@types/node" "*"
@@ -1448,9 +1448,9 @@ binary-extensions@^1.0.0:
   integrity sha512-Un7MIEDdUC5gNpcGDV97op1Ywk748MpHcFTHoYs6qnj1Z3j7I53VG3nwZhKzoBZmbdRNnb6WRdFlwl7tSDuZGw==
 
 binary-extensions@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
-  integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.1.0.tgz#30fa40c9e7fe07dbc895678cd287024dea241dd9"
+  integrity sha512-1Yj8h9Q+QDF5FzhMs/c9+6UntbD5MkRfRwac8DoEm9ZfUBZ7tZ55YcGVAzEe4bXsdQHEk+s9S5wsOKVdZrw0tQ==
 
 bindings@^1.5.0:
   version "1.5.0"
@@ -1703,12 +1703,12 @@ cache-base@^1.0.1:
     unset-value "^1.0.0"
 
 call-bind@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.2.tgz#b1d4e89e688119c3c9a903ad30abb2f6a919be3c"
-  integrity sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/call-bind/-/call-bind-1.0.0.tgz#24127054bb3f9bdcb4b1fb82418186072f77b8ce"
+  integrity sha512-AEXsYIyyDY3MCzbwdhzG3Jx1R0J2wetQyUynn6dYHAO+bg8l1k7jwZtRv4ryryFs7EP+NDlikJlVe59jr0cM2w==
   dependencies:
     function-bind "^1.1.1"
-    get-intrinsic "^1.0.2"
+    get-intrinsic "^1.0.0"
 
 caller-callsite@^2.0.0:
   version "2.0.0"
@@ -1763,9 +1763,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001173:
-  version "1.0.30001176"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001176.tgz#e44bac506d4656bae4944a1417f41597bd307335"
-  integrity sha512-VWdkYmqdkDLRe0lvfJlZQ43rnjKqIGKHWhWWRbkqMsJIUaYDNf/K/sdZZcVO6YKQklubokdkJY+ujArsuJ5cag==
+  version "1.0.30001173"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001173.tgz#3c47bbe3cd6d7a9eda7f50ac016d158005569f56"
+  integrity sha512-R3aqmjrICdGCTAnSXtNyvWYMK3YtV5jwudbq0T7nN9k4kmE4CBuwPqyJ+KBzepSTh0huivV2gLbSMEzTTmfeYw==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -1852,12 +1852,16 @@ chownr@^1.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> cours webpack
@@ -1879,6 +1883,8 @@ chownr@^1.1.1:
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 chownr@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-2.0.0.tgz#15bfbe53d2eab4cf70f18a8cd68ebe5b3cb1dece"
@@ -1891,6 +1897,9 @@ chownr@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
@@ -1899,6 +1908,7 @@ chownr@^2.0.0:
 =======
 >>>>>>> ninja commit
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -1937,6 +1947,9 @@ chownr@^2.0.0:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 chrome-trace-event@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.2.tgz#234090ee97c7d4ad1a2c4beae27505deffc608a4"
@@ -2285,6 +2298,7 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -2306,12 +2320,17 @@ cross-spawn@^6.0.0, cross-spawn@^6.0.5:
 =======
 >>>>>>> ninja commit
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
+<<<<<<< HEAD
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 cross-spawn@^7.0.3:
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/cross-spawn/-/cross-spawn-7.0.3.tgz#f73a85b9d5d41d045551c177e2882d4ac85728a6"
@@ -2328,6 +2347,7 @@ cross-spawn@^7.0.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
@@ -2339,6 +2359,8 @@ cross-spawn@^7.0.3:
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
 =======
@@ -2346,6 +2368,7 @@ cross-spawn@^7.0.3:
 =======
 >>>>>>> ninja commit
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> add modified yarn.lock file
 =======
@@ -2368,6 +2391,9 @@ cross-spawn@^7.0.3:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 crypto-browserify@^3.11.0:
   version "3.12.0"
   resolved "https://registry.yarnpkg.com/crypto-browserify/-/crypto-browserify-3.12.0.tgz#396cf9f3137f03e4b8e532c58f698254e00f80ec"
@@ -2822,9 +2848,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.634:
-  version "1.3.637"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.637.tgz#be46f77acc217cdecf633bbd25292f6a36cc689b"
-  integrity sha512-924WXYMYquYybc+7pNApGlhY2RWg3MY3he4BrZ5BUmM2n1MGBsrS+PZxrlo6UAsWuNl4NE66fqFdwsWkBUGgkA==
+  version "1.3.634"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.634.tgz#82ea400f520f739c4f6ff00c1f7524827a917d25"
+  integrity sha512-QPrWNYeE/A0xRvl/QP3E0nkaEvYUvH3gM04ZWYtIa6QlSpEetRlRI1xvQ7hiMIySHHEV+mwDSX8Kj4YZY6ZQAw==
 
 elliptic@^6.5.3:
   version "6.5.3"
@@ -2866,10 +2892,10 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-enhanced-resolve@^4.1.1, enhanced-resolve@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.5.0.tgz#2f3cfd84dbe3b487f18f2db2ef1e064a571ca5ec"
-  integrity sha512-Nv9m36S/vxpsI+Hc4/ZGRs0n9mXqSWGGq49zxb/cJfPAQMbUtttJAlNPS4AQzaBdw/pKskw5bMbekT/Y7W/Wlg==
+enhanced-resolve@^4.1.1, enhanced-resolve@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-4.3.0.tgz#3b806f3bfafc1ec7de69551ef93cca46c1704126"
+  integrity sha512-3e87LvavsdxyoCfGusJnrZ5G8SLPOFeHSNpZI/ATL9a5leXo2k0w6MKnbqhdBad9qTobSfB20Ld7UmgoNbAZkQ==
   dependencies:
     graceful-fs "^4.1.2"
     memory-fs "^0.5.0"
@@ -2898,12 +2924,16 @@ entities@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> cours webpack
@@ -2925,6 +2955,8 @@ entities@^2.0.0:
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 env-paths@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/env-paths/-/env-paths-2.2.0.tgz#cdca557dc009152917d6166e2febe1f039685e43"
@@ -2937,6 +2969,9 @@ env-paths@^2.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
@@ -2945,6 +2980,7 @@ env-paths@^2.2.0:
 =======
 >>>>>>> ninja commit
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -2983,6 +3019,9 @@ env-paths@^2.2.0:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 errno@^0.1.3, errno@~0.1.7:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/errno/-/errno-0.1.8.tgz#8bb3e9c7d463be4976ff888f76b4809ebc2e811f"
@@ -3509,6 +3548,7 @@ fs-extra@^7.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -3530,12 +3570,17 @@ fs-extra@^7.0.0:
 =======
 >>>>>>> ninja commit
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
+<<<<<<< HEAD
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 fs-minipass@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/fs-minipass/-/fs-minipass-2.1.0.tgz#7f5036fdbf12c63c169190cbe4199c852271f9fb"
@@ -3550,6 +3595,7 @@ fs-minipass@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
@@ -3561,6 +3607,8 @@ fs-minipass@^2.0.0:
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
 =======
@@ -3568,6 +3616,7 @@ fs-minipass@^2.0.0:
 =======
 >>>>>>> ninja commit
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> add modified yarn.lock file
 =======
@@ -3590,6 +3639,9 @@ fs-minipass@^2.0.0:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 fs-write-stream-atomic@^1.0.8:
   version "1.0.10"
   resolved "https://registry.yarnpkg.com/fs-write-stream-atomic/-/fs-write-stream-atomic-1.0.10.tgz#b47df53493ef911df75731e70a9ded0189db40c9"
@@ -3667,7 +3719,7 @@ get-caller-file@^2.0.1:
   resolved "https://registry.yarnpkg.com/get-caller-file/-/get-caller-file-2.0.5.tgz#4f94412a82db32f36e3b0b9741f8a97feb031f7e"
   integrity sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==
 
-get-intrinsic@^1.0.2:
+get-intrinsic@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/get-intrinsic/-/get-intrinsic-1.0.2.tgz#6820da226e50b24894e08859469dc68361545d49"
   integrity sha512-aeX0vrFm21ILl3+JpFFRNe9aUvp6VFZb2/CTbgLb8j75kOhvoNYjt9d8KA/tJG4gSo8nzEDedRl0h7vDmBYRVg==
@@ -3805,6 +3857,7 @@ globule@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3850,12 +3903,16 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
 >>>>>>> ninja commit
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
 =======
+graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6, graceful-fs@^4.2.3:
 <<<<<<< HEAD
 =======
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
 >>>>>>> cours webpack
 >>>>>>> cours webpack
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> cours webpack
 =======
@@ -3876,6 +3933,16 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6
 =======
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
 >>>>>>> add modified yarn.lock file
+=======
+=======
+>>>>>>> fix errors in dependency manager files
+=======
+graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+>>>>>>> ninja commit
+=======
+graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.4.tgz#2256bde14d3632958c465ebc96dc467ca07a29fb"
   integrity sha512-WjKPNJF79dtJAVniUlGGWHYGz2jWxT6VhN/4m1NdkbZ2nOsEF+cI1Edgql5zCRhs/VsQYRvrXctxktVXZUkixw==
@@ -4198,6 +4265,7 @@ imurmurhash@^0.1.4:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ninja commit
 =======
@@ -4206,9 +4274,12 @@ imurmurhash@^0.1.4:
 >>>>>>> add modified yarn.lock file
 =======
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> ninja commit
 =======
 >>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+<<<<<<< HEAD
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
@@ -4220,6 +4291,8 @@ imurmurhash@^0.1.4:
 >>>>>>> ninja commit
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 in-publish@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/in-publish/-/in-publish-2.0.1.tgz#948b1a535c8030561cea522f73f78f4be357e00c"
@@ -4232,6 +4305,16 @@ in-publish@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
+<<<<<<< HEAD
+>>>>>>> cours webpack
+=======
+>>>>>>> fix errors in dependency manager files
+=======
+>>>>>>> ninja commit
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -4243,12 +4326,6 @@ in-publish@^2.0.0:
 >>>>>>> ninja commit
 =======
 <<<<<<< HEAD
->>>>>>> cours webpack
-=======
->>>>>>> fix errors in dependency manager files
-=======
->>>>>>> ninja commit
-=======
 >>>>>>> add modified yarn.lock file
 =======
 >>>>>>> ninja commit
@@ -4271,6 +4348,9 @@ in-publish@^2.0.0:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 indent-string@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-2.1.0.tgz#8e2d48348742121b4a8218b7a137e9a52049dc80"
@@ -4925,6 +5005,7 @@ loud-rejection@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ninja commit
 =======
@@ -4933,9 +5014,12 @@ loud-rejection@^1.0.0:
 >>>>>>> add modified yarn.lock file
 =======
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> ninja commit
 =======
 >>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+<<<<<<< HEAD
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
@@ -4947,6 +5031,8 @@ loud-rejection@^1.0.0:
 >>>>>>> ninja commit
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 lru-cache@^4.0.1:
   version "4.1.5"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-4.1.5.tgz#8bbe50ea85bed59bc9e33dcab8235ee9bcf443cd"
@@ -4963,6 +5049,7 @@ lru-cache@^4.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cours webpack
 =======
@@ -4970,16 +5057,22 @@ lru-cache@^4.0.1:
 =======
 >>>>>>> ninja commit
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 =======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> ninja commit
 =======
+<<<<<<< HEAD
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 =======
@@ -5012,6 +5105,9 @@ lru-cache@^4.0.1:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 lru-cache@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-5.1.1.tgz#1da27e6710271947695daf6848e847f01d84b920"
@@ -5235,6 +5331,7 @@ minimist@^1.2.0, minimist@^1.2.5:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
 =======
@@ -5262,6 +5359,12 @@ minimist@^1.2.0, minimist@^1.2.5:
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> fix errors in dependency manager files
+>>>>>>> Revert "add modified yarn.lock file"
 minipass@^3.0.0:
   version "3.1.3"
   resolved "https://registry.yarnpkg.com/minipass/-/minipass-3.1.3.tgz#7d42ff1f39635482e15f9cdb53184deebd5815fd"
@@ -5284,6 +5387,9 @@ minizlib@^2.1.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
@@ -5292,6 +5398,7 @@ minizlib@^2.1.1:
 =======
 >>>>>>> ninja commit
 =======
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -5328,6 +5435,9 @@ minizlib@^2.1.1:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 mississippi@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/mississippi/-/mississippi-3.0.0.tgz#ea0a3291f97e0b5e8776b363d5f0a12d94c67022"
@@ -5372,6 +5482,7 @@ mixin-deep@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -5383,17 +5494,27 @@ mkdirp@^1.0.4:
 <<<<<<< HEAD
 =======
 >>>>>>> cours webpack
+=======
+mkdirp@^1.0.4:
+=======
+<<<<<<< HEAD
+>>>>>>> Revert "add modified yarn.lock file"
 mkdirp@^1.0.3, mkdirp@^1.0.4:
 =======
 mkdirp@^1.0.4:
 >>>>>>> cours webpack
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> cours webpack
 <<<<<<< HEAD
+=======
+>>>>>>> cours webpack
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 mkdirp@^1.0.3, mkdirp@^1.0.4:
 >>>>>>> fix errors in dependency manager files
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
@@ -5433,6 +5554,13 @@ mkdirp@^1.0.4:
 =======
 mkdirp@^1.0.4:
 >>>>>>> add modified yarn.lock file
+=======
+mkdirp@^1.0.4:
+>>>>>>> ninja commit
+=======
+mkdirp@^1.0.4:
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
@@ -5546,6 +5674,7 @@ node-forge@^0.10.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ninja commit
 =======
@@ -5554,9 +5683,12 @@ node-forge@^0.10.0:
 >>>>>>> add modified yarn.lock file
 =======
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> ninja commit
 =======
 >>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+<<<<<<< HEAD
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
@@ -5568,6 +5700,8 @@ node-forge@^0.10.0:
 >>>>>>> ninja commit
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 node-gyp@^3.8.0:
   version "3.8.0"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-3.8.0.tgz#540304261c330e80d0d5edce253a68cb3964218c"
@@ -5579,12 +5713,16 @@ node-gyp@^3.8.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5604,11 +5742,14 @@ node-gyp@^3.8.0:
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 node-gyp@^7.1.0:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-7.1.2.tgz#21a810aebb187120251c3bcec979af1587b188ae"
   integrity sha512-CbpcIo7C3eMu3dL1c3d0xw449fHIGALIJsRP4DDPHpyiW8vcriNY7ubh9TE4zEKfSxscY7PjeFnshE7h75ynjQ==
 >>>>>>> cours webpack
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5629,6 +5770,12 @@ node-gyp@^7.1.0:
 >>>>>>> ninja commit
 =======
 >>>>>>> add modified yarn.lock file
+=======
+=======
+>>>>>>> ninja commit
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
   dependencies:
     fstream "^1.0.0"
     glob "^7.0.3"
@@ -5704,6 +5851,7 @@ node-releases@^1.1.69:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ninja commit
 =======
@@ -5712,9 +5860,12 @@ node-releases@^1.1.69:
 >>>>>>> add modified yarn.lock file
 =======
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> ninja commit
 =======
 >>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+<<<<<<< HEAD
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
@@ -5726,6 +5877,8 @@ node-releases@^1.1.69:
 >>>>>>> ninja commit
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 node-sass@4.14.1:
   version "4.14.1"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.14.1.tgz#99c87ec2efb7047ed638fb4c9db7f3a42e2217b5"
@@ -5737,6 +5890,7 @@ node-sass@4.14.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ninja commit
 =======
@@ -5763,11 +5917,18 @@ node-sass@4.14.1:
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> fix errors in dependency manager files
+>>>>>>> Revert "add modified yarn.lock file"
 node-sass@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-5.0.0.tgz#4e8f39fbef3bac8d2dc72ebe3b539711883a78d2"
   integrity sha512-opNgmlu83ZCF792U281Ry7tak9IbVC+AKnXGovcQ8LG8wFaJv6cLnRlc6DIHlmNxWEexB5bZxi9SZ9JyUuOYjw==
 >>>>>>> cours webpack
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -5788,6 +5949,12 @@ node-sass@^5.0.0:
 >>>>>>> ninja commit
 =======
 >>>>>>> add modified yarn.lock file
+=======
+=======
+>>>>>>> ninja commit
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"
@@ -5863,20 +6030,26 @@ npm-run-path@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> ninja commit
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 "npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0:
 =======
 <<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cours webpack
 =======
 >>>>>>> fix errors in dependency manager files
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 npmlog@^4.0.0, npmlog@^4.1.2:
@@ -5884,6 +6057,7 @@ npmlog@^4.0.0, npmlog@^4.1.2:
 =======
 "npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0:
 >>>>>>> ninja commit
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -5914,6 +6088,11 @@ npmlog@^4.0.0, npmlog@^4.1.2:
 =======
 "npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0:
 >>>>>>> add modified yarn.lock file
+=======
+=======
+"npmlog@0 || 1 || 2 || 3 || 4", npmlog@^4.0.0:
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/npmlog/-/npmlog-4.1.2.tgz#08a7f2a8bf734604779a9efa4ad5cc717abb954b"
   integrity sha512-2uUqazuKlTaSI/dC8AzicUck7+IrEaOnN/e0jd3Xtt1KcGpwx30v50mL7oPyr/h9bL3E4aZccVwpwP+5W9Vjkg==
@@ -6259,6 +6438,7 @@ path-key@^2.0.0, path-key@^2.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -6286,12 +6466,19 @@ path-key@^2.0.0, path-key@^2.0.1:
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> fix errors in dependency manager files
+>>>>>>> Revert "add modified yarn.lock file"
 path-key@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
 
 >>>>>>> cours webpack
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -6312,6 +6499,12 @@ path-key@^3.1.0:
 >>>>>>> ninja commit
 =======
 >>>>>>> add modified yarn.lock file
+=======
+=======
+>>>>>>> ninja commit
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
@@ -6801,6 +6994,7 @@ prr@~1.0.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ninja commit
 =======
@@ -6809,9 +7003,12 @@ prr@~1.0.1:
 >>>>>>> add modified yarn.lock file
 =======
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> ninja commit
 =======
 >>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+<<<<<<< HEAD
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
@@ -6823,6 +7020,8 @@ prr@~1.0.1:
 >>>>>>> ninja commit
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 pseudomap@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
@@ -6835,6 +7034,16 @@ pseudomap@^1.0.2:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
+<<<<<<< HEAD
+>>>>>>> cours webpack
+=======
+>>>>>>> fix errors in dependency manager files
+=======
+>>>>>>> ninja commit
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -6846,12 +7055,6 @@ pseudomap@^1.0.2:
 >>>>>>> ninja commit
 =======
 <<<<<<< HEAD
->>>>>>> cours webpack
-=======
->>>>>>> fix errors in dependency manager files
-=======
->>>>>>> ninja commit
-=======
 >>>>>>> add modified yarn.lock file
 =======
 >>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
@@ -6874,6 +7077,9 @@ pseudomap@^1.0.2:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 psl@^1.1.28:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
@@ -7133,9 +7339,9 @@ regjsgen@^0.5.1:
   integrity sha512-OFFT3MfrH90xIW8OOSyUrk6QHD5E9JOTeGodiJeBS3J6IwlgzJMNE/1bZklWz5oTg+9dCMyEetclvCVXOPoN3A==
 
 regjsparser@^0.6.4:
-  version "0.6.6"
-  resolved "https://registry.yarnpkg.com/regjsparser/-/regjsparser-0.6.6.tgz#6d8c939d1a654f78859b08ddcc4aa777f3fa800a"
-  integrity sha512-jjyuCp+IEMIm3N1H1LLTJW1EISEJV9+5oHdEyrt43Pg9cDSb6rrLZei2cVWpl0xTjmmlpec/lEQGYgM7xfpGCQ==
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/regjsparser/-/regjsparser-0.6.4.tgz#a769f8684308401a66e9b529d2436ff4d0666272"
+  integrity sha512-64O87/dPDgfk8/RQqC4gkZoGyyWFIEUTTh80CU6CWuK5vkCGyekIx+oKcEIYtP/RAxSQltCZHCNu/mdd7fqlJw==
   dependencies:
     jsesc "~0.5.0"
 
@@ -7321,6 +7527,9 @@ rimraf@2, rimraf@^2.5.4, rimraf@^2.6.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 rimraf@^3.0.0:
@@ -7328,6 +7537,7 @@ rimraf@^3.0.0:
 <<<<<<< HEAD
 rimraf@^3.0.0, rimraf@^3.0.2:
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 rimraf@^3.0.0:
 >>>>>>> cours webpack
@@ -7355,6 +7565,9 @@ rimraf@^3.0.0:
 >>>>>>> add modified yarn.lock file
 =======
 rimraf@^3.0.0:
+=======
+rimraf@^3.0.0:
+>>>>>>> Revert "add modified yarn.lock file"
 >>>>>>> cours webpack
 >>>>>>> cours webpack
 =======
@@ -7366,6 +7579,7 @@ rimraf@^3.0.0:
 =======
 rimraf@^3.0.0:
 >>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+<<<<<<< HEAD
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 =======
@@ -7401,6 +7615,8 @@ rimraf@^3.0.0:
 =======
 rimraf@^3.0.0:
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> Revert "add modified yarn.lock file"
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-3.0.2.tgz#f1a5402ba6220ad52cc1282bac1ae3aa49fd061a"
   integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
@@ -7676,6 +7892,7 @@ shebang-command@^1.2.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -7703,6 +7920,12 @@ shebang-command@^1.2.0:
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> fix errors in dependency manager files
+>>>>>>> Revert "add modified yarn.lock file"
 shebang-command@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
@@ -7717,6 +7940,7 @@ shebang-command@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
 =======
@@ -7731,6 +7955,8 @@ shebang-command@^2.0.0:
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
 =======
@@ -7738,6 +7964,7 @@ shebang-command@^2.0.0:
 =======
 >>>>>>> ninja commit
 =======
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> add modified yarn.lock file
 =======
@@ -7758,6 +7985,9 @@ shebang-command@^2.0.0:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
@@ -7776,6 +8006,7 @@ shebang-regex@^1.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -7797,12 +8028,17 @@ shebang-regex@^1.0.0:
 =======
 >>>>>>> ninja commit
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 <<<<<<< HEAD
 =======
 >>>>>>> fix errors in dependency manager files
+<<<<<<< HEAD
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 shebang-regex@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-3.0.0.tgz#ae16f1644d873ecad843b0307b143362d4c42172"
@@ -7815,6 +8051,7 @@ shebang-regex@^3.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
@@ -7828,10 +8065,13 @@ shebang-regex@^3.0.0:
 =======
 >>>>>>> fix errors in dependency manager files
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> cours webpack
 >>>>>>> cours webpack
 =======
 >>>>>>> fix errors in dependency manager files
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> ninja commit
@@ -7856,6 +8096,12 @@ shebang-regex@^3.0.0:
 >>>>>>> cours webpack
 =======
 >>>>>>> add modified yarn.lock file
+=======
+=======
+>>>>>>> ninja commit
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
 shellwords@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/shellwords/-/shellwords-0.1.1.tgz#d6b9181c1a48d397324c84871efbcfc73fc0654b"
@@ -8336,6 +8582,7 @@ tapable@^1.0.0, tapable@^1.1.3:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> ninja commit
 =======
@@ -8344,9 +8591,12 @@ tapable@^1.0.0, tapable@^1.1.3:
 >>>>>>> add modified yarn.lock file
 =======
 =======
+>>>>>>> Revert "add modified yarn.lock file"
+=======
 >>>>>>> ninja commit
 =======
 >>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+<<<<<<< HEAD
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
@@ -8358,6 +8608,8 @@ tapable@^1.0.0, tapable@^1.1.3:
 >>>>>>> ninja commit
 =======
 >>>>>>> add modified yarn.lock file
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 tar@^2.0.0:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/tar/-/tar-2.2.2.tgz#0ca8848562c7299b8b446ff6a4d60cdbb23edc40"
@@ -8373,6 +8625,7 @@ tar@^2.0.0:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
@@ -8398,6 +8651,12 @@ tar@^2.0.0:
 >>>>>>> fix errors in dependency manager files
 =======
 >>>>>>> cours webpack
+=======
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> fix errors in dependency manager files
+>>>>>>> Revert "add modified yarn.lock file"
 tar@^6.0.2:
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/tar/-/tar-6.1.0.tgz#d1724e9bcc04b977b18d5c573b333a2207229a83"
@@ -8410,6 +8669,7 @@ tar@^6.0.2:
     mkdirp "^1.0.3"
     yallist "^4.0.0"
 >>>>>>> cours webpack
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -8433,6 +8693,13 @@ tar@^6.0.2:
 
 =======
 >>>>>>> cours webpack
+=======
+=======
+>>>>>>> ninja commit
+=======
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+
+>>>>>>> Revert "add modified yarn.lock file"
 terser-webpack-plugin@^1.1.0, terser-webpack-plugin@^1.4.3:
   version "1.4.5"
   resolved "https://registry.yarnpkg.com/terser-webpack-plugin/-/terser-webpack-plugin-1.4.5.tgz#a217aefaea330e734ffacb6120ec1fa312d6040b"
@@ -8693,9 +8960,9 @@ upath@^1.1.1:
   integrity sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
 
 uri-js@^4.2.2:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.4.1.tgz#9b1a52595225859e55f669d928f88c6c57f2a77e"
-  integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.4.0.tgz#aa714261de793e8a82347a7bcc9ce74e86f28602"
+  integrity sha512-B0yRTzYdUCCn9n+F4+Gh4yIDtMQcaJsmYBDsTSG8g/OejKBodLQ2IHfN3bM7jUsRXndopT7OIXWdYqc1fjmV6g==
   dependencies:
     punycode "^2.1.0"
 
@@ -8958,9 +9225,9 @@ webpack-virtual-modules@^0.3.2:
     debug "^3.0.0"
 
 webpack@^4.36.0:
-  version "4.46.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.46.0.tgz#bf9b4404ea20a073605e0a011d188d77cb6ad542"
-  integrity sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q==
+  version "4.44.2"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.44.2.tgz#6bfe2b0af055c8b2d1e90ed2cd9363f841266b72"
+  integrity sha512-6KJVGlCxYdISyurpQ0IPTklv+DULv05rs2hseIXer6D7KrUicRDLFb4IUM1S6LUAKypPM/nSiVSuv8jHu1m3/Q==
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
     "@webassemblyjs/helper-module-context" "1.9.0"
@@ -8970,7 +9237,7 @@ webpack@^4.36.0:
     ajv "^6.10.2"
     ajv-keywords "^3.4.1"
     chrome-trace-event "^1.0.2"
-    enhanced-resolve "^4.5.0"
+    enhanced-resolve "^4.3.0"
     eslint-scope "^4.0.3"
     json-parse-better-errors "^1.0.2"
     loader-runner "^2.4.0"
@@ -9025,24 +9292,31 @@ which@1, which@^1.2.14, which@^1.2.9, which@^1.3.1:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> Revert "add modified yarn.lock file"
 =======
 >>>>>>> cours webpack
 =======
 >>>>>>> fix errors in dependency manager files
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 which@^2.0.2:
 =======
 <<<<<<< HEAD
 which@^2.0.1, which@^2.0.2:
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Revert "add modified yarn.lock file"
 which@^2.0.2:
 >>>>>>> cours webpack
 >>>>>>> cours webpack
 =======
 which@^2.0.1, which@^2.0.2:
 >>>>>>> fix errors in dependency manager files
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -9088,6 +9362,14 @@ which@^2.0.2:
 =======
 which@^2.0.2:
 >>>>>>> add modified yarn.lock file
+=======
+=======
+which@^2.0.2:
+>>>>>>> ninja commit
+=======
+which@^2.0.2:
+>>>>>>> a97467f74ee5aec53a1d706d3aeaeb0ab30fe0d6
+>>>>>>> Revert "add modified yarn.lock file"
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/which/-/which-2.0.2.tgz#7c6a8dd0a636a0327e10b59c9286eee93f3f51b1"
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
