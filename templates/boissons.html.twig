@@ -15,7 +15,11 @@
         <ul>
             {% for boisson in boissons %}
                 <li>
+<<<<<<< HEAD
                     <a class="btn btn-info" href="{{ path('boisson_show', {'boisson': boisson}) }}">
+=======
+                    <a class="btn btn-primary" ref="{{ path('boisson_show', {'boisson': boisson}) }}">
+>>>>>>> ninja commit
                         {{ boisson }}
                     </a>
                 </li>

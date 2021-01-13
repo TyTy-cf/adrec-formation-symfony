@@ -15,21 +15,11 @@
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> fix errors in dependency manager files
     },
     "dependencies": {
         "bootstrap": "^4.5.3",
         "jquery": "^3.5.1",
-<<<<<<< HEAD
         "node-sass": "4.14.1",
         "popper.js": "^1.16.1"
-=======
->>>>>>> cours webpack
-=======
-        "popper.js": "^1.16.1"
->>>>>>> fix errors in dependency manager files
     }
 }
