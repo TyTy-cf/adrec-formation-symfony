@@ -15,7 +15,7 @@
         <ul>
             {% for boisson in boissons %}
                 <li>
-                    <a href="{{ path('boisson_show', {'boisson': boisson}) }}">
+                    <a class="btn btn-primary" ref="{{ path('boisson_show', {'boisson': boisson}) }}">
                         {{ boisson }}
                     </a>
                 </li>
