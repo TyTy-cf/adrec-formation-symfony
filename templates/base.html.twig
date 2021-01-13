@@ -8,12 +8,15 @@
         {% endblock %}
     </head>
     <body>
+        <div class="container col-8">
+            {% block body %}
 
-        {% block body %}
+            {% endblock %}
+        </div>
 
-        {% endblock %}
-
-        {% include 'footer.html.twig' %}
+        <div class="text-center">
+            {% include 'footer.html.twig' %}
+        </div>
 
         {% block javascripts %}
             {{ encore_entry_script_tags('scripts') }}

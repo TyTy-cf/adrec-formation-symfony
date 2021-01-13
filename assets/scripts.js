@@ -7,4 +7,4 @@
 
 // start the Stimulus application
 import './scripts/formation';
-import './bootstrap';
+import './bootstrap.js';
