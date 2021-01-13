@@ -19,22 +19,24 @@ class StudentRepository extends ServiceEntityRepository
         parent::__construct($registry, Student::class);
     }
 
-    // /**
-    //  * @return Student[] Returns an array of Student objects
-    //  */
-    /*
-    public function findByExampleField($value)
+    /**
+     * @param $height
+     * @param $gender
+     * @return Student[] Returns an array of Student objects
+     */
+    public function findByHeightMaxAndGender($height, $gender): array
     {
-        return $this->createQueryBuilder('s')
-            ->andWhere('s.exampleField = :val')
-            ->setParameter('val', $value)
-            ->orderBy('s.id', 'ASC')
-            ->setMaxResults(10)
+        return $this->createQueryBuilder('student')
+            ->select('student')
+            ->where('student.height <= :height')
+            ->setParameter('height', $height)
+            ->andWhere('student.gender = :gender')
+            ->setParameter('gender', $gender)
+            ->orderBy('student.lastName', 'ASC')
             ->getQuery()
             ->getResult()
         ;
     }
-    */
 
     /*
     public function findOneBySomeField($value): ?Student

@@ -71,6 +71,11 @@ class Student
         return $this->height;
     }
 
+    public function getHeightMeter(): ?float
+    {
+        return $this->height / 100;
+    }
+
     public function setHeight(?int $height): self
     {
         $this->height = $height;
