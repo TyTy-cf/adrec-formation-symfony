@@ -37,6 +37,22 @@ class StudentRepository extends ServiceEntityRepository
             ->getResult()
         ;
     }
+    
+    /**
+     * @param $gender
+     * @return Student[] Returns an array of Student objects
+     */
+    public function findByGender($gender): array
+    {
+        return $this->createQueryBuilder('student')
+            ->select('student')
+            ->where('student.gender = :gender')
+            ->setParameter('gender', $gender)
+            ->orderBy('student.lastName', 'ASC')
+            ->getQuery()
+            ->getResult()
+        ;
+    }
 
     /*
     public function findOneBySomeField($value): ?Student
