@@ -44,7 +44,7 @@ class HomeController extends AbstractController
     public function boissonShow(Request $request, string $boisson): Response
     {
         return $this->render('boisson_show.html.twig', [
-//            'boisson' => $request->get('boisson')
+//            'boisson' => $request->get('boisson'),
             'boisson' => $boisson,
         ]);
     }

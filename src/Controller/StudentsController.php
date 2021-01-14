@@ -47,4 +47,11 @@ class StudentsController extends AbstractController
         ]);
     }
 
+//    /**
+//     * @param Student $gender
+//     */
+//    public function showStudentsByGender(Student $gender) {
+//        if ()
+//    }
+
 }
