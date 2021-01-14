@@ -1,6 +1,7 @@
 
 ###> symfony/framework-bundle ###
 /yarn.lock
+/.DS_Store
 /.idea
 /.env
 /.env.local

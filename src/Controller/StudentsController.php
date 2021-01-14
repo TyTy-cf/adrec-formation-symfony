@@ -45,5 +45,17 @@ class StudentsController extends AbstractController
             'student' => $student,
         ]);
     }
+    
+    /**
+     * @Route(path="/students-gender", name="gender_students")
+     * @param StudentRepository $studentRepository
+     * @return Response
+     */
+    public function selectStudentsByGender(StudentRepository $studentRepository): Response {
+        $students = $studentRepository->findByGender('F');
+        return $this->render('students/index.html.twig', [
+            'students' => $students,
+        ]);
+    }
 
 }
