@@ -71,9 +71,12 @@ class Student
         return $this->height;
     }
 
-    public function getHeightMeter(): ?float
+    public function getHeightMeter(): string
     {
-        return $this->height / 100;
+        if ($this->height !== null) {
+            return $this->height / 100;
+        }
+        return "Non renseigné";
     }
 
     public function setHeight(?int $height): self
@@ -86,6 +89,22 @@ class Student
     public function getGender(): ?string
     {
         return $this->gender;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getGenderLabel(): string
+    {
+        // Si gender est renseigné
+        if ($this->gender !== null) {
+            // Si c'est M on renvoit Homme
+            if ($this->gender === 'M') return 'Homme';
+            // Sinon Femme
+            return 'Femme';
+        }
+        // Si gender n'est pas renseigné, on renvoit Inconnu
+        return 'Inconnu';
     }
 
     public function setGender(?string $gender): self

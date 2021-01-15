@@ -20,15 +20,14 @@ class StudentsController extends AbstractController
      * @return Response
      */
     public function indexStudents(StudentRepository $studentRepository): Response {
-//        $students = $studentRepository->findAll();
+        $students = $studentRepository->findAll();
 //        $students = $studentRepository->findBy(
 //            ['gender' => 'F'],
 //            ['lastName' => 'ASC']
 //        );
 //        $students = $studentRepository->find(2);
 //        $students = $studentRepository->findOneBy(['lastName' => 'Bradtke']);
-
-        $students = $studentRepository->findByHeightMaxAndGender(180, 'M');
+//        $students = $studentRepository->findByHeightMaxAndGender(180, 'M');
         return $this->render('students/index.html.twig', [
             'students' => $students,
         ]);
