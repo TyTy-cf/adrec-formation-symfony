@@ -19,16 +19,18 @@ class ClassesRepository extends ServiceEntityRepository
         parent::__construct($registry, Classes::class);
     }
 
-
     /**
-     * @param $height
-     * @param $gender
+     * findByLevel
+     *
+     * @param mixed $level
      * @return Classes[] Returns an array of Classes objects
      */
-    public function findByLevel(): array
+    public function findByLevel($level): array
     {
         return $this->createQueryBuilder('classes')
             ->select('classes')
+            ->where('classes.level = :level')
+            ->setParameter('level', $level)
             ->orderBy('classes.level', 'ASC')
             ->getQuery()
             ->getResult()
