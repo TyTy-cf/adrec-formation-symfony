@@ -88,6 +88,11 @@ class Student
         return $this->gender;
     }
 
+    public function getNamedGender(): ?string
+    {
+        return ($this->gender == 'M') ? 'Homme' : 'Femme';
+    }
+
     public function setGender(?string $gender): self
     {
         $this->gender = $gender;

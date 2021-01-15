@@ -53,7 +53,7 @@ class StudentsController extends AbstractController
      * @return Response
      */
     public function selectStudentsByGender(StudentRepository $studentRepository): Response {
-        $students = $studentRepository->findByGender('F');
+        $students = $studentRepository->findByGender('M');
         return $this->render('students/index.html.twig', [
             'students' => $students,
         ]);
