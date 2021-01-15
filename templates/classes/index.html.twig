@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Classes index{% endblock %}
+
+{% block body %}
+    <h1>Classes index</h1>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Label</th>
+                <th>Level</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for class in classes %}
+            <tr>
+                <td>{{ class.name }}</td>
+                <td>{{ class.label }}</td>
+                <td>{{ class.level }}</td>
+                <td>
+                    <a class="btn btn-secondary" href="{{ path('classes_show', {'id': class.id}) }}">show</a>
+                    <a class="btn btn-warning" href="{{ path('classes_edit', {'id': class.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a class="btn btn-info" href="{{ path('classes_new') }}">Create new</a>
+{% endblock %}

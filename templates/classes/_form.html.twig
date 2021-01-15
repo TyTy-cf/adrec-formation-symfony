@@ -1,0 +1,19 @@
+{{ form_start(form) }}
+
+{# form_widget avec le nom du formulaire, permet d'afficher entièrement le formulaire définit dans Type #}
+    {{ form_widget(form) }}
+
+{# form_widget avec un champ du formulaire, permet d'afficher juste l'input du formulaire en question #}
+{#    {{ form_widget(form.name) }} #}
+
+{# form_row permet d'afficher l'input du formulaire en question et son label lié #}
+{#    {{ form_row(form.name) }} #}
+{#    {{ form_row(form.level) }} #}
+{#    {{ form_row(form.label) }} #}
+
+    <div>
+        <button class="btn btn-success">{{ 'buttons.label.submit'|trans }}</button>
+        <a class="btn btn-info float-right" href="{{ path('classes_index') }}">{{ 'buttons.label.return'|trans }}</a>
+    </div>
+
+{{ form_end(form) }}
