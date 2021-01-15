@@ -4,7 +4,10 @@
         "@symfony/webpack-encore": "^0.32.0",
         "core-js": "^3.0.0",
         "regenerator-runtime": "^0.13.2",
+<<<<<<< HEAD
         "sass-loader": "9.0.1",
+=======
+>>>>>>> 8024317492d666aa8455ab1d7525daabacb8b6c2
         "stimulus": "^2.0.0",
         "webpack-notifier": "^1.6.0"
     },
@@ -18,8 +21,12 @@
     },
     "dependencies": {
         "bootstrap": "^4.5.3",
+<<<<<<< HEAD
         "jquery": "^3.5.1",
         "node-sass": "4.14.1",
         "popper.js": "^1.16.1"
+=======
+        "jquery": "^3.5.1"
+>>>>>>> 8024317492d666aa8455ab1d7525daabacb8b6c2
     }
 }

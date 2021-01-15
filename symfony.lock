@@ -514,7 +514,11 @@
             "ref": "f362ed8e8aa99a8cb216e6bdb2ac833dfb7643dd"
         },
         "files": [
+<<<<<<< HEAD
             "./assets/scripts.js",
+=======
+            "./assets/app.js",
+>>>>>>> 8024317492d666aa8455ab1d7525daabacb8b6c2
             "./assets/bootstrap.js",
             "./assets/controllers.json",
             "./assets/controllers/hello_controller.js",

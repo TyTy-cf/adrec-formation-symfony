@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 var Encore = require('@symfony/webpack-encore');
+=======
+git branchvar Encore = require('@symfony/webpack-encore');
+>>>>>>> 8024317492d666aa8455ab1d7525daabacb8b6c2
 
 // Manually configure the runtime environment if not already configured yet by the "encore" command.
 // It's useful when you use tools that rely on webpack.config.js file.
@@ -20,8 +24,12 @@ Encore
      * Each entry will result in one JavaScript file (e.g. app.js)
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
+<<<<<<< HEAD
     .addEntry('scripts', './assets/scripts.js')
     .addEntry('styles', './assets/styles.scss')
+=======
+    .addEntry('app', './assets/app.js')
+>>>>>>> 8024317492d666aa8455ab1d7525daabacb8b6c2
 
     // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
     .enableStimulusBridge('./assets/controllers.json')
@@ -57,7 +65,11 @@ Encore
     })
 
     // enables Sass/SCSS support
+<<<<<<< HEAD
     .enableSassLoader()
+=======
+    //.enableSassLoader()
+>>>>>>> 8024317492d666aa8455ab1d7525daabacb8b6c2
 
     // uncomment if you use TypeScript
     //.enableTypeScriptLoader()

@@ -55,5 +55,4 @@ class HomeController extends AbstractController
     public function contactAction() {
         return $this->render('cours.html.twig');
     }
-
 }

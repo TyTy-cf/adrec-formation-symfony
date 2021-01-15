@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "49a0a105ed61188107849b5b9dd53166",
+=======
+    "content-hash": "5c35db9e5d20bb8001266d7aad41f13e",
+>>>>>>> 8024317492d666aa8455ab1d7525daabacb8b6c2
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -6929,6 +6933,13 @@
                 }
             ],
             "description": "Integration with your Symfony app & Webpack Encore!",
+<<<<<<< HEAD
+=======
+            "support": {
+                "issues": "https://github.com/symfony/webpack-encore-bundle/issues",
+                "source": "https://github.com/symfony/webpack-encore-bundle/tree/v1.8.0"
+            },
+>>>>>>> 8024317492d666aa8455ab1d7525daabacb8b6c2
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",

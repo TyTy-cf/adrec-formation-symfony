@@ -31,9 +31,9 @@ class ClassesRepository extends ServiceEntityRepository
      */
     public function findByLevelOfClasse($name, $level): array
     {
-        return $this->createQueryBuilder('classe')
+        return $this->createQueryBuilder('classes')
             ->select('name', 'level')
-            ->where('classes.name <= :name')
+            ->where('classes.name = :name')
             ->setParameter('name', $name)
             ->andWhere('classes.level = :level')
             ->setParameter('level', $level)

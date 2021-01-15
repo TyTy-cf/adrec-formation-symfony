@@ -88,6 +88,15 @@ class Student
         return $this->gender;
     }
 
+    public function getGenderLabel(): string
+    {
+        if ($this->gender !== null) {
+            if ($this->gender === 'M') return 'Homme';
+            return 'Femme';
+        }
+        return "Inconnu";
+    }
+
     public function setGender(?string $gender): self
     {
         $this->gender = $gender;
