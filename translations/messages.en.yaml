@@ -1,0 +1,8 @@
+
+students:
+    index:
+        name: 'Name'
+        first_name: 'First name'
+        height: 'Height'
+        gender: 'Gender'
+        detailed: 'Detail'

@@ -10,10 +10,10 @@
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Nom</th>
-                <th>Prénom</th>
-                <th>Taille</th>
-                <th>Genre</th>
+                <th>{{ 'students.index.name'|trans }}</th>
+                <th>{{ 'students.index.first_name'|trans }}</th>
+                <th>{{ 'students.index.height'|trans }}</th>
+                <th>{{ 'students.index.gender'|trans }}</th>
                 <th></th>
             </tr>
         </thead>
@@ -26,7 +26,7 @@
                     <td>{{ student.genderLabel }}</td>
                     <td>
                         <a class="btn btn-info" href="{{ path('show_students', {'idStudent': student.id}) }}">
-                            Récap
+                            {{ 'students.index.detailed'|trans }}
                         </a>
                     </td>
                 </tr>

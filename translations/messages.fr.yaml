@@ -1,0 +1,17 @@
+
+buttons:
+    label:
+        validate: 'Valider'
+        submit: 'Soumettre'
+        cancel: 'Annuler'
+        return: 'Retour'
+
+students:
+    index:
+        name: 'Nom'
+        first_name: 'Prénom'
+        height: 'Taille'
+        gender: 'Genre'
+        detailed: 'Détail'
+    show:
+        detailed: "Récapitulatif de l'étudiant"
