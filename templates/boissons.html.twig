@@ -11,14 +11,28 @@
         <p>Date du jour : {{ date|date('d/m/Y') }}</p>
     {% endif %}
 
-    {% if boissons|length > 0 %}
+    {# Compte de 0 à 10 et affiche le contenu séparé par un tiret #}
+    {% for i in 0..10 %}
+        {% if loop.index != 1 %}
+            -
+        {% endif %}
+        {{ i }}
+    {% endfor %}
+
+    {# Si la variable boissons existe alors on peut afficher son contenu #}
+    {% if boissons is defined %}
+        {# On vérifit si la taille de nos boissons est supérieure à 0 afin d'afficher le nombre de produits du bar #}
+        {% if boissons|length > 0 %}
+            <p>Nombre de boissons disponibles : {{ boissons|length }}</p>
+        {% endif %}
         <ul>
             {% for boisson in boissons %}
-                <li>
-                    <a class="btn btn-info" href="{{ path('boisson_show', {'boisson': boisson}) }}">
-                        {{ boisson }}
-                    </a>
-                </li>
+                {% if loop.index != 1 %}
+                    <br>
+                {% endif %}
+                <a class="btn btn-info" href="{{ path('boisson_show', {'boisson': boisson}) }}">
+                    {{ boisson }}
+                </a>
             {% endfor %}
         </ul>
     {% else %}

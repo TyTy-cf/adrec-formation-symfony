@@ -74,9 +74,9 @@ class Student
     public function getHeightMeter(): string
     {
         if ($this->height !== null) {
-            return $this->height / 100;
+            return ($this->height / 100) . 'm';
         }
-        return "Non renseigné";
+        return 'Non renseigné';
     }
 
     public function setHeight(?int $height): self

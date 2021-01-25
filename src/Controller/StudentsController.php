@@ -28,6 +28,7 @@ class StudentsController extends AbstractController
 //        $students = $studentRepository->find(2);
 //        $students = $studentRepository->findOneBy(['lastName' => 'Bradtke']);
 //        $students = $studentRepository->findByHeightMaxAndGender(180, 'M');
+        dump($students);
         return $this->render('students/index.html.twig', [
             'students' => $students,
         ]);

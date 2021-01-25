@@ -6,10 +6,10 @@
 {% endblock %}
 
 {% block body %}
-
     <table class="table table-striped">
         <thead>
             <tr>
+                {# On utilise les clés de traduction #}
                 <th>{{ 'students.index.name'|trans }}</th>
                 <th>{{ 'students.index.first_name'|trans }}</th>
                 <th>{{ 'students.index.height'|trans }}</th>
@@ -22,6 +22,7 @@
                 <tr>
                     <td>{{ student.lastName }}</td>
                     <td>{{ student.firstName }}</td>
+                    {# On utilise des méthodes personnalisées de notre objet Student #}
                     <td>{{ student.heightMeter }}</td>
                     <td>{{ student.genderLabel }}</td>
                     <td>
