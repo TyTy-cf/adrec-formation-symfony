@@ -1,0 +1,14 @@
+
+{% if student.gender is same as ('M') %}
+    <td class="student-gender-M">
+        Homme
+    </td>
+{% elseif student.gender is same as ('F') %}
+    <td class="student-gender-F">
+        Femme
+    </td>
+{% else %}
+    <td class="student-gender">
+        Non renseigné
+    </td>
+{% endif %}

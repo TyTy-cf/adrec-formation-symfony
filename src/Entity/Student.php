@@ -99,12 +99,12 @@ class Student
         // Si gender est renseigné
         if ($this->gender !== null) {
             // Si c'est M on renvoit Homme
-            if ($this->gender === 'M') return 'Homme';
+            if ($this->gender === 'M') return 'students.gender.male';
             // Sinon Femme
-            return 'Femme';
+            return 'students.gender.female';
         }
-        // Si gender n'est pas renseigné, on renvoit Inconnu
-        return 'Inconnu';
+        // Si gender n'est pas renseigné, on renvoit Non renseigné
+        return 'students.gender.unknown';
     }
 
     public function setGender(?string $gender): self

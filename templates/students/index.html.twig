@@ -18,15 +18,20 @@
             </tr>
         </thead>
         <tbody>
-            {% for student in students %}
+            {% for studentLoop in students %}
                 <tr>
-                    <td>{{ student.lastName }}</td>
-                    <td>{{ student.firstName }}</td>
+                    <td>{{ studentLoop.lastName }}</td>
+                    <td>{{ studentLoop.firstName }}</td>
                     {# On utilise des méthodes personnalisées de notre objet Student #}
-                    <td>{{ student.heightMeter }}</td>
-                    <td>{{ student.genderLabel }}</td>
+                    <td>{{ studentLoop.heightMeter }}</td>
+                    <td class="student-gender-{{ studentLoop.gender }}">
+                        {{ studentLoop.genderLabel|trans }}
+                    </td>
+
+{#                    {% include 'students/_partial_gender.html.twig' with {'student': studentLoop} %}#}
+
                     <td>
-                        <a class="btn btn-info" href="{{ path('show_students', {'idStudent': student.id}) }}">
+                        <a class="btn btn-info" href="{{ path('show_students', {'idStudent': studentLoop.id}) }}">
                             {{ 'students.index.detailed'|trans }}
                         </a>
                     </td>

@@ -7,5 +7,15 @@ body {
     background-color: #5eb5e0;
 }
 
+.student-gender- {
+    color: $best-orange-EVER;
+    &M {
+        color: $gender-m;
+    }
+    &F {
+        color: $gender-f;
+    }
+}
+
 
 

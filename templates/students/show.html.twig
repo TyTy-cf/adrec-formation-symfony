@@ -15,7 +15,10 @@
         <p>{{ student.lastName }}</p>
         <p>{{ student.firstName }}</p>
         <p>{{ student.heightMeter }}</p>
-        <p>{{ student.genderLabel }}</p>
+        <p class="student-gender-{{ student.gender }}">
+            {{ student.genderLabel|trans }}
+        </p>
+{#        {% include 'students/_partial_gender.html.twig' %}#}
     </div>
 
     <div class="mt-2">

@@ -13,6 +13,10 @@
 
     {# Compte de 0 à 10 et affiche le contenu séparé par un tiret #}
     {% for i in 0..10 %}
+        {# si la boucle est sur le premier élément #}
+        {{ loop.first }}
+        {# si la boucle est sur le dernier élément #}
+        {{ loop.last }}
         {% if loop.index != 1 %}
             -
         {% endif %}
@@ -26,12 +30,20 @@
             <p>Nombre de boissons disponibles : {{ boissons|length }}</p>
         {% endif %}
         <ul>
+            {# Récupère le 1er et le dernier élément d'un tableau #}
+            <p>Première boisson : {{ boissons|first }}</p>
+            <p>Dernière boisson : {{ boissons|last }}</p>
             {% for boisson in boissons %}
                 {% if loop.index != 1 %}
                     <br>
                 {% endif %}
                 <a class="btn btn-info" href="{{ path('boisson_show', {'boisson': boisson}) }}">
-                    {{ boisson }}
+                    {# le filtre lower permet d'afficher la chaine en minuscule #}
+                    {{ boisson|lower }} -
+                    {# le filtre lower permet d'afficher la chaine en majuscule #}
+                    {{ boisson|upper }} -
+                    {# le filtre capitalize permet d'afficher la première lettre en majuscule #}
+                    {{ boisson|capitalize }}
                 </a>
             {% endfor %}
         </ul>

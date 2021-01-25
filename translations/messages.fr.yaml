@@ -13,5 +13,9 @@ students:
         height: 'Taille'
         gender: 'Genre'
         detailed: 'Détail'
+    gender:
+        male: 'Homme'
+        female: 'Femme'
+        unknown: 'Non renseigné'
     show:
         detailed: "Récapitulatif de l'étudiant"
