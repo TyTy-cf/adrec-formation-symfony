@@ -30,6 +30,7 @@ class HomeController extends AbstractController
                 'Vodka'
             ],
             'date' => new \DateTime(),
+            'htmlContent' => '<strong>Je souhaite afficher du texte en gras depuis le controleur</strong>',
         ]);
     }
 

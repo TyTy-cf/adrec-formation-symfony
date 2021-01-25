@@ -23,7 +23,9 @@
                     <td>{{ studentLoop.lastName }}</td>
                     <td>{{ studentLoop.firstName }}</td>
                     {# On utilise des méthodes personnalisées de notre objet Student #}
-                    <td>{{ studentLoop.heightMeter }}</td>
+                    <td class="{{ studentLoop.cssRangeHeight }}">
+                        {{ studentLoop.heightMeter|trans }}
+                    </td>
                     <td class="student-gender-{{ studentLoop.gender }}">
                         {{ studentLoop.genderLabel|trans }}
                     </td>

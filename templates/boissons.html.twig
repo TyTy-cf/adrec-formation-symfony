@@ -24,6 +24,14 @@
     {% endfor %}
 
     {# Si la variable boissons existe alors on peut afficher son contenu #}
+{#    <p>{{ boissons|default('Le bar est vide, on est fermé') }}</p>#}
+
+    <div>
+        <p>
+            {{ htmlContent|raw }}
+        </p>
+    </div>
+
     {% if boissons is defined %}
         {# On vérifit si la taille de nos boissons est supérieure à 0 afin d'afficher le nombre de produits du bar #}
         {% if boissons|length > 0 %}
@@ -47,8 +55,6 @@
                 </a>
             {% endfor %}
         </ul>
-    {% else %}
-        <p>Le bar est vide, on est fermé</p>
     {% endif %}
 
 {% endblock %}

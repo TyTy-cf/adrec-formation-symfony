@@ -71,12 +71,28 @@ class Student
         return $this->height;
     }
 
+    public function getCssRangeHeight(): string
+    {
+        if ($this->height === null) {
+            return 'student-height-empty';
+        }
+        if ($this->height >= 120 && $this->height <= 129) return 'student-height-120';
+        if ($this->height >= 130 && $this->height <= 139) return 'student-height-130';
+        if ($this->height >= 140 && $this->height <= 149) return 'student-height-140';
+        if ($this->height >= 150 && $this->height <= 159) return 'student-height-150';
+        if ($this->height >= 160 && $this->height <= 169) return 'student-height-160';
+        if ($this->height >= 170 && $this->height <= 179) return 'student-height-170';
+        if ($this->height >= 180 && $this->height <= 189) return 'student-height-180';
+        if ($this->height >= 190 && $this->height <= 199) return 'student-height-190';
+        return 'student-height-200';
+    }
+
     public function getHeightMeter(): string
     {
         if ($this->height !== null) {
             return ($this->height / 100) . 'm';
         }
-        return 'Non renseigné';
+        return 'students.gender.unknown';
     }
 
     public function setHeight(?int $height): self

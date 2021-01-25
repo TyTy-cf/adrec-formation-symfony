@@ -12,9 +12,13 @@
     </h3>
 
     <div class="text-center">
-        <p>{{ student.lastName }}</p>
-        <p>{{ student.firstName }}</p>
-        <p>{{ student.heightMeter }}</p>
+        {% set css = "student-gender-" %}
+        <p class="{{ css }}">{{ student.lastName }}</p>
+        <p class="{{ css }}">{{ student.firstName }}</p>
+        {# on recupere directement le nom de la classe css envoyé par la methode getCssRangeHeight #}
+        <p class="{{ student.cssRangeHeight }}">
+            {{ student.heightMeter|trans }}
+        </p>
         <p class="student-gender-{{ student.gender }}">
             {{ student.genderLabel|trans }}
         </p>
