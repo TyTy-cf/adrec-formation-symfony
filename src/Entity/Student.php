@@ -87,14 +87,6 @@ class Student
         return 'student-height-200';
     }
 
-    public function getHeightMeter(): string
-    {
-        if ($this->height !== null) {
-            return ($this->height / 100) . 'm';
-        }
-        return 'students.gender.unknown';
-    }
-
     public function setHeight(?int $height): self
     {
         $this->height = $height;

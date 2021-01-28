@@ -1,8 +1,15 @@
 
 {% extends 'base.html.twig' %}
 
+{# Fonctionne comme un include et un extends en même temps #}
+{#{% embed 'base.html.twig' %}#}
+{#    {% block title %}#}
+{#        {{ parent() }} -  BOISSONS#}
+{#    {% endblock %}#}
+{#{% endembed %}#}
+
 {% block title %}
-    {{ parent() }} -  BOISSONS
+    {{ parent() }} - boissons
 {% endblock %}
 
 {% block body %}
@@ -26,10 +33,21 @@
     {# Si la variable boissons existe alors on peut afficher son contenu #}
 {#    <p>{{ boissons|default('Le bar est vide, on est fermé') }}</p>#}
 
+    {% macro input(name, value, type = "text", size = 20) %}
+        <input type="{{ type }}" name="{{ name }}" value="{{ value }}" size="{{ size }}"/>
+    {% endmacro %}
+
     <div>
         <p>
+            {# Permet d'interprêter l'html contenu dans la variable #}
             {{ htmlContent|raw }}
         </p>
+
+        <h3>Création d'input via macro</h3>
+        <div>
+            {% from 'boissons.html.twig' import input, addMoreMacros %}
+            {{ input('macro de test')}}
+        </div>
     </div>
 
     {% if boissons is defined %}

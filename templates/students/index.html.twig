@@ -24,7 +24,9 @@
                     <td>{{ studentLoop.firstName }}</td>
                     {# On utilise des méthodes personnalisées de notre objet Student #}
                     <td class="{{ studentLoop.cssRangeHeight }}">
-                        {{ studentLoop.heightMeter|trans }}
+                        {# Utilisation d'un filtre personnalisé de twig, celui-ci est créé dans le dossier src/twig #}
+                        {# Ici, il s'agit du fichier StudentExtension #}
+                        {{ studentLoop|cm_to_m|trans }}
                     </td>
                     <td class="student-gender-{{ studentLoop.gender }}">
                         {{ studentLoop.genderLabel|trans }}

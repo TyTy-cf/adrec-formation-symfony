@@ -14,5 +14,10 @@
         Retour au bar
     </a>
 
+    <div>
+        {% set urlImage = 'images/meme.jpg' %}
+        <img src="{{ asset(urlImage)|imagine_filter('rotate270') }}">
+    </div>
+
 {% endblock %}
 

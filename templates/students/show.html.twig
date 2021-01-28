@@ -1,8 +1,10 @@
 
 {% extends 'base.html.twig' %}
 
+{% trans_default_domain 'messages' %}
+
 {% block title %}
-    Show Students {{ student.id }}
+    {{ 'students.head.title'|trans({'%tata%': student.id}) }}
 {% endblock %}
 
 {% block body %}
